@@ -1,0 +1,6 @@
+#!/bin/sh
+
+HOST=josecaceres.info
+DIR=cv
+
+hugo && rsync -avz --delete public/ ${USER}@${HOST}:~/${DIR} # this will delete everything on the server that's not in the local public folder 
