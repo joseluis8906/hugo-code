@@ -3,9 +3,9 @@ languageCode: en-us
 build:
   writeStats: true
 params:
-  title: aafu theme
-  author: Darshan Baral
-  description: Website title
+  title: CV Resume
+  author: Jose Caceres
+  description: Curriculum vitae resume
   copyright: >-
     powered by [hugo](https://gohugo.io/) & deployed on
     [netlify](https://www.netlify.com/)
@@ -24,34 +24,19 @@ params:
               <link rel="shortcut icon" href="favicon.ico">
 
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
+    name: "Jose Caceres"
+    tagline: Software Developer
+    location: "Bucaramanga, CO"
     photo: profile.jpg
   social:
     title: Links
     list:
       - icon: fab fa-linkedin-in
-        url: "#"
+        url: "https://www.linkedin.com/in/jose-cáceres-b4913b7a"
         title: LinkedIn
-      - icon: fab fa-stack-overflow
-        url: "#"
-        title: StackOverflow
       - icon: fab fa-github
-        url: "#"
+        url: "https://github.com/joseluis8906"
         title: GitHub
-      - icon: fab fa-twitter
-        url: "#"
-        title: Twitter
-      - icon: fab fa-orcid
-        url: "#"
-        title: Orcid
-      - icon: ai ai-google-scholar
-        url: "#"
-        title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "#"
-        title: ResearchGate
   showInAccordion:
     - item: aboutme
       expand: true
@@ -64,105 +49,125 @@ params:
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
+    description:  
+      "I'm a software engineer passionate about developing good-quality Go and Rust backend services, 
+      but I’m also curious about some Javascript/Typescript frontend technologies, particularly Vue and Svelte. 
+      \n\n
+      In addition to designing and implementing highly responsive server-side software, I’m also responsible for 
+      developing the application program interface (API) between the frontend and backend, mostly based on gRPC, 
+      Thrift, AVRO or JSON REST applications. 
+      \n\n
+      I have worked with agile methodologies like Scrum and Kanban, and I deal perfectly with teamwork issues. 
+      I’m 100% sure that two heads do think better than one."
   experience:
     title: Experiences
     icon: fas fa-briefcase
     list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
+      - position: Software Engineer II 
+        dates: 2022 - *Present*
+        company: Uber Technologies 
         details: >-
-          Printed from desktop. Sent [emails](#). Called people using telephone.
-          Drank water from office cooler. Ate donuts on people's birthdays.
-      - position: Job Title
+          I work on designing and implementing code migrations from Python to Go, as well as reviewing code
+          changes and deploying and monitoring services in production.
+      - position: Software Engineer II 
+        dates: 2021 - 2023
+        company: SpotOn
+        details: >-
+          I worked designing and implementing features, fixing bugs and migrating the monolith enterprise application 
+          to a microservice architecture based on Go, MongoDB, REST, and SQS.
+      - position: Senior Software Developer 
+        dates: 2019 - 2021
+        company: Rappi
+        details: >-
+          I worked on designing and implementing features and fixing bugs in the order assignment service, part of the
+          business core of the company.
+      - position: Senior Software Developer 
+        dates: 2019 - 2019
+        company: Merqueo 
+        details: >-
+          I worked on designing and implementing server-side applications for the picking and logistics department.
+      - position: Senior Software Developer 
         dates: 2018 - 2019
-        url: "#"
-        company: Company Name
+        company: Scotiabank Colpatria
+        details: >-
+          I worked on designing and implementing a service to generate synthetic data to validate the personal banking 
+          app.
+      - position: Mini Squad Lead
+        dates: 2018 - 2018
+        company: Quick Help
+        details: >- 
+          I worked on designing and implementing REST server-side logic and leading the backend team.
+      - position: Software Developer(Freelancer)
+        dates: 2011 - 2018
+        company: Pagord, GaE, CrystalPos, Crystal-Stock, Comcerge.
+        details: >-
+          I worked on designing and implementing web monolithic applications for several SMEs focusing on concrete 
+          business verticals like payments, billing, logistics, warehousing and inventory.
   education:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
+      # - degree: Ph.D. in Subject
+      #   college: University of State-City
+      #   dates: 2013 - 2018
+      #   thesis_title: "Effect of humans on other humans: a study of human behavior."
+      #   thesis_url: "#"
+      - degree: B.S. in Systems Engineering
+        college: University of Cesar
         dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
   publication:
-    title: Publications
-    icon: fas fa-book
-    format:
-      - date
-      - title
-      - authors
-      - journal
-    types:
-      - Journal Articles
-      - Proceedings
-    list:
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Proceedings
+     title: Publications
+     icon: fas fa-book
+    # format:
+    #   - date
+    #   - title
+    #   - authors
+    #   - journal
+    # types:
+    #   - Journal Articles
+    #   - Proceedings
+    # list:
+    #   - title: >-
+    #       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    #       eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    #     authors: "F Last, F Second, P secondary"
+    #     date: "2018"
+    #     journal: "Journal of Field 52 (16), 9033-9044"
+    #     url: "#"
+    #     type: Journal Articles
   project:
-    title: Projects
-    icon: fas fa-project-diagram
-    list:
-      - title: Project 1
-        url: "#"
-        description: Description of the project
-      - title: Project 2
-        url: "#"
-        description: Description of the project
-      - title: Project 3
-        url: "#"
-        description: Description of the project
-      - title: Project 4
-        url: "#"
-        description: Description of the project
+     title: Projects
+     icon: fas fa-project-diagram
+    # list:
+    #   - title: Project 1
+    #     url: "#"
+    #     description: Description of the project
   skill:
     title: Skills
     panelId: skill-panel
     icon: fas fa-cogs
     list:
-      - skill: "Skill 1, Skill 2"
+      - skill: Go
         skillrating: 90
-      - skill: Skill 3
+      - skill: Rust, Bash script, Javascript/Typescript, Python
         skillrating: 80
-      - skill: Skill 4
-        skillrating: 50
+      - skill: Linux, FreeBSD, MacOS
+        skillrating: 80
+      - skill: Micro Services Architectures
+        skillrating: 80
+      - skill: gRPC, AVRO, REST 
+        skillrating: 75
+      - skill: Nats, Kafka, RabbitMQ
+        skillrating: 70
+      - skill: Postgres, MySQL, MongoDB, Redis
+        skillrating: 70
+      - skill: Jenkins, BuildKite 
+        skillrating: 60
   hobby:
     title: Hobbies
     icon: fas fa-gamepad
     list:
       - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
+      - hobby: Boxing, Soccer
+      - hobby: Music
+      - hobby: Reading
